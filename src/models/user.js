@@ -21,6 +21,10 @@ module.exports = (sequelize, Sequelize) => {
         status: {
             type: Sequelize.INTEGER,
             defaultValue: 1
+        },
+        role: {
+            type: Sequelize.INTEGER,
+            defaultValue: 0
         }
     }, {
         freezeTableName: true,
